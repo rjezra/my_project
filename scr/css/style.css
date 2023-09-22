@@ -1,4 +1,4 @@
-body, h1 , ul, li{
+body, h1, h2, h4, ul, li{
     margin: 0px;
     padding: 0px;
 }
@@ -30,8 +30,9 @@ a.menu{
 }
 .banier{
     background-image: url(../img/01.jpg);
+    background-repeat: no-repeat;
     width: 100%;
-    height: 400px;
+    height: 300px;
 }
 .text-banier{
     align-items: center;
@@ -49,8 +50,45 @@ button.text{
     border-radius: 2px;
     background-color: rgb(186, 40, 40);
     color: #ffffff;
+    margin-top: 100px;
 }
 button.text:hover{
     cursor: pointer;
     background-color:rgb(75, 22, 22) ;
+}
+.contenu{
+    display: flex;
+    
+}
+.contenu-01{
+    color: #ffffff;
+    background-color: rgb(64, 16, 225);
+    width: 25%;
+    height: auto;
+    margin: 20px;
+}
+.contenu-02{
+    color: #ffffff;
+    background-color: rgb(64, 16, 225);
+    width: 25%;
+    height: auto;
+    margin: 20px;
+}
+.contenu-03{
+    color: #ffffff;
+    background-color: rgb(64, 16, 225);
+    width: 25%;
+    height: auto;
+    margin: 20px;
+}
+.contenu-04{
+    color: #ffffff;
+    background-color: rgb(64, 16, 225);
+    width: 25%;
+    height: auto;
+    margin: 20px;
+}
+h4.contenu{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
 }
