@@ -1,4 +1,4 @@
-body, h1 ,p, ul, li{
+body, h1 , ul, li{
     margin: 0px;
     padding: 0px;
 }
@@ -28,8 +28,29 @@ a.menu{
     outline: none;
     text-decoration: none;
 }
-.corp{
-    background-image: url(../img/01.jpg) ;
+.banier{
+    background-image: url(../img/01.jpg);
     width: 100%;
     height: 400px;
+}
+.text-banier{
+    align-items: center;
+    justify-content: center;
+}
+p.text{
+    color: rgb(84, 20, 20);
+}
+button.text{
+    width: 150px;
+    height: 35px;
+    margin-left: 50%;
+    align-items: flex-end;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(186, 40, 40);
+    color: #ffffff;
+}
+button.text:hover{
+    cursor: pointer;
+    background-color:rgb(75, 22, 22) ;
 }
