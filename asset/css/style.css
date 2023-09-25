@@ -8,6 +8,10 @@
 body{
     display: block;
 }
+a {
+    text-decoration: none;
+    color: #000;
+}
 h3 {
     display: block;
     font-size: 1.17em;
@@ -16,6 +20,9 @@ h3 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+}
+div {
+    display: block;
 }
 h4 {
     display: block;
@@ -96,6 +103,7 @@ img {
 .educ-info{
     display: flex;
     flex-flow: column wrap;
+    margin-left: 30px;
 }
 .educ h3 {
     font-size: 1.2em;
@@ -104,3 +112,65 @@ img {
     font-size: 1em;
     font-weight: normal;
 }
+.comp1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.comp2{
+    flex: 0 0 100%;
+    height: 0.5em;
+    margin-bottom: 0.25em;
+    border-radius: 5px;
+    background-color: grey;
+ }
+.barre{
+    display: block;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.c30 {
+    width: 30%;
+    background-color: rgb(75, 17, 201);
+}
+.c20{
+    width: 20%;
+    background-color: rgb(75, 17, 201);
+}
+.c10{
+    width: 10%;
+    background-color: rgb(75, 17, 201);
+}
+.c50{
+    width: 50%;
+    background-color: rgb(75, 17, 201);
+}
+.c70{
+    width: 70%;
+    background-color: rgb(75, 17, 201);
+}
+.comp3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #650e0e;
+}
+.comp4{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #ecdddd;
+}
+footer a {
+    width: 300px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto 30px auto;
+    color: #fff;
+    background-color: #EA0;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 5px;
+}
+
