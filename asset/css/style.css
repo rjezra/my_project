@@ -79,6 +79,7 @@ img {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    margin-top: 15px;
 }
 .info-flex p:first-child{
     flex: 0 0 40%;
@@ -172,5 +173,12 @@ footer a {
     background-color: #EA0;
     box-shadow: 0px 0px 10px #ccc;
     border-radius: 5px;
+}
+.interet{
+    display: flex;
+    justify-content: space-around;
+}
+.interet-flex img{
+    width: 100px;
 }
 
