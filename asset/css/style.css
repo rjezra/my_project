@@ -99,7 +99,7 @@ header ul{
     color: blanchedalmond;
     font-size: 20px;
 }
-.text strong{
+strong{
     color: #f48c00;
     font-size: 30px;
 }
@@ -142,7 +142,7 @@ header ul{
     width: 250px;
     height: 50px;
     background-color:#f48c00;
-    border-radius: 5%;
+    border-radius: 10% / 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -219,4 +219,15 @@ header ul{
 .exp h4{
     font-size:  1em;
     font-weight: normal;
+}
+.contact{
+    display: flex;
+    margin: 20px;
+}
+.contact-flex-2{
+    margin-left: 50px;
+}
+.contact-flex img{
+    width: 50px;
+    height: 50px;
 }
