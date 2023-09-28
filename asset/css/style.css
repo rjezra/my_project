@@ -1,9 +1,23 @@
+@font-face {
+    font-family: 'Montserrat-BlackItalic';
+    src: url(../font/Montserrat-BlackItalic.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url(../font/Montserrat-Black.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url(../font/Montserrat-Medium.ttf);
+}
+
 */{
 margin: 0;
 padding: o;
 }
 body{
     background-color: #1f242e;
+    font-family: 'Montserrat-Medium';
 }
 .contaire{
     width: 100%;
@@ -19,6 +33,7 @@ section{
 header a{
     color: #f48c00;
     font-size: 25px;
+    font-family: 'Montserrat-Black';
 }
 header a:hover{
     text-decoration: underline;
@@ -35,7 +50,7 @@ header span{
 }
 header ul li{
     list-style: none;
-    margin: 20px;   
+    margin: 20px;
 }
 header ul{
     display:inline-flex;
@@ -53,6 +68,7 @@ header ul{
 .col1 h2{
     color: blanchedalmond;
     font-size: 40px;
+    
 }
 .col1 h3{
     color: blanchedalmond;
@@ -123,7 +139,7 @@ header ul{
 }
 
 .btn{
-    width: 200px;
+    width: 250px;
     height: 50px;
     background-color:#f48c00;
     border-radius: 5%;
